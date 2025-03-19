@@ -1,0 +1,29 @@
+% Apply fancy style globally
+\pagestyle{fancy}
+
+% Clear all default headers and footers
+\fancyhf{}
+
+% Center-aligned header with logos
+\fancyhead[C]{
+    \includegraphics[width=1\textwidth]{logos/logos-together.pdf} % Logos
+}
+
+% Thin gray rule below the header
+\renewcommand{\headrulewidth}{0.1pt} % Reduce line thickness
+\definecolor{lightgray}{rgb}{0.8, 0.8, 0.8} % Light gray color
+\renewcommand{\headrule}{
+    \hrule height 0.1pt \color{lightgray} % Create the light gray rule
+}
+
+% Plain page style (used for chapter openings)
+\fancypagestyle{plain}{
+    \fancyhf{} % Remove all headers and footers
+    \fancyhead[C]{
+        \includegraphics[width=1\textwidth]{logos/logos-together.pdf} % Logos
+    }
+    \renewcommand{\headrulewidth}{0.1pt} % Keep thin rule
+    \renewcommand{\headrule}{
+        \hrule height 0.1pt \color{lightgray} % Light gray rule
+    }
+}

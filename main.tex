@@ -1,0 +1,33 @@
+%%% Main LaTeX Document %%%
+
+\documentclass[
+    language=french,
+]{main}
+
+\usepackage{etoolbox} % Utility package for conditional compilation
+
+\begin{document}
+
+%%% Cover Page %%%
+\subfile{text/00-front-page} % Cover page
+
+%%% Introduction %%%
+\subfile{text/00-introduction} % General introduction
+
+%%% Core Chapters %%%
+\subfile{text/01-tc} % Transit network
+\subfile{text/02-embarquement-stationnement} % Boarding and parking policies
+\subfile{text/03-mobilite-partagee} % Shared mobility solutions
+\subfile{text/04-sensibilisation} % Awareness and communication strategies
+\subfile{text/05-reseau-cyclable} % Bicycle network planning
+\subfile{text/06-reduction-voiture} % Car use reduction policies
+\subfile{text/07-densite} % Urban density and land use
+\subfile{text/08-urbanisation} % Urbanization patterns
+\subfile{text/09-documents-urbanisme} % Urban planning documents and regulations
+\subfile{text/10-observatoire} % Mobility and urban monitoring observatory
+
+%%% Closing Page %%%
+\subfile{text/11-conclusion} % Flower fig
+\subfile{text/12-back-page} % Back page
+
+\end{document}

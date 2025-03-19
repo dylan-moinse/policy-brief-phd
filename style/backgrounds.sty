@@ -1,0 +1,40 @@
+%%% Command to Insert Background Images on Left and Right %%%
+\newcommand{\putbackground}[1]{%
+    \AddToShipoutPicture{%
+        \AtPageLowerLeft{%
+            % Insert left background image (adjust height to page)
+            \includegraphics[height=\paperheight,keepaspectratio]{background/background#1_L.jpg}
+        }
+    }
+    \AddToShipoutPicture{%
+        \AtPageLowerLeft{%
+            % Insert right background image (aligned right)
+            \rlap{\hspace{\dimexpr\paperwidth-2cm}%
+                \includegraphics[height=\paperheight,keepaspectratio]{background/background#1_R.jpg}
+            }
+        }
+    }
+    \AddToShipoutPicture*{%
+        \AtPageLowerLeft{%
+            % Add a central white rectangle for text readability
+            \put(2cm,0){\color{white}\rule{\dimexpr\paperwidth-4cm}{\paperheight}}
+        }
+    }
+}
+
+% Define a counter for tracking page numbers
+\newcounter{pagecount}
+\setcounter{pagecount}{1} % Start counting from the first page
+
+% Command to check and apply background based on the page number
+\newcommand{\checkbackground}{%
+    \ifnum\value{pagecount}=1
+        % Do nothing on the first page (no background)
+    \else
+        \putbackground{\thepage} % Apply a background matching the page number
+    \fi
+    \stepcounter{pagecount} % Increment the counter for the next page
+}
+
+% Automatically apply background at each new page
+\AtBeginShipout{\checkbackground}

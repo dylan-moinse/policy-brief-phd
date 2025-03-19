@@ -1,0 +1,30 @@
+% Increase line spacing slightly for readability
+\linespread{1.2} 
+
+% Set the main document font
+\setmainfont{Verdana}
+
+% Define custom font commands
+\newcommand{\latofont}{\fontspec{Lato}}
+\newcommand{\garamondfont}{\fontspec{EB Garamond}}
+
+% Custom Verdana font setup with explicit file paths
+\newcommand{\verdana}{\fontspec[
+    Path = Configurations/Fonts/, % Specify the font file directory
+    UprightFont = verdana.ttf,
+    BoldFont = verdana-bold.ttf,
+    ItalicFont = verdana-italic.ttf,
+    BoldItalicFont = verdana-bold-italic.ttf
+]{Verdana}}
+
+%%% Hyphenation Settings %%%
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%%% Custom Bold Command with Color %%%
+\newcommand{\gras}[1]{\textbf{\textcolor{UGEblue}{#1}}}
+
+%%% Column Separation %%%
+\setlength{\columnsep}{22pt} % Adjust column spacing

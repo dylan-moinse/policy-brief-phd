@@ -1,0 +1,15 @@
+% Define footer text and numbering
+\fancyfoot[L]{\textsl{\scriptsize{\textcolor{gray}{Aménager les quartiers de gare piétons et cyclables dans la région Hauts-de-France}}}} % Left-aligned text
+\fancyfoot[R]{\textbf{\textcolor{UGEblue}{\thepage}}/{\the\numexpr\getpagerefnumber{LastPage}-1\relax}} % Page number format
+
+% Thin gray rule above the footer
+\renewcommand{\footrulewidth}{0.1pt} % Reduce footer rule thickness
+\renewcommand{\footrule}{
+    \hrule height 0.1pt \color{lightgray} % Create the light gray rule
+}
+
+% Apply the same style for plain pages (chapter openings)
+\fancypagestyle{plain}{
+    \fancyfoot[L]{\textsl{\scriptsize{\textcolor{gray}{Aménager les quartiers de gare piétons et cyclables dans la région Hauts-de-France}}}}
+    \fancyfoot[R]{\textbf{\textcolor{UGEblue}{\thepage}}/{\the\numexpr\getpagerefnumber{LastPage}-1\relax}} % Page number format
+}

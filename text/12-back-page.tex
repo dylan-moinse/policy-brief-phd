@@ -1,0 +1,53 @@
+\documentclass[../main.tex]{subfiles}
+
+    \begin{document}
+    \newpage
+
+    % PhD URL text
+    \begin{center}
+    \vspace*{\fill}
+    \hspace*{-12cm}
+    \rotatebox{90}{
+        \textcolor{white}{
+            \scriptsize{\textbf{\href{https://nextcloud.univ-lille.fr/index.php/s/76arMsAi6efZ6pi}{Consulter le document en ligne en cliquant sur l'image ou ici}}}
+        }
+        }
+    \vspace*{\fill}
+    \end{center}
+
+    % PhD URL zone
+    \begin{picture}(0,0)
+    \put(41, 90){
+        \href{https://nextcloud.univ-lille.fr/index.php/s/76arMsAi6efZ6pi}{\mbox{\phantom{\rule{10.7cm}{15cm}}}}
+        }
+    \end{picture}
+
+    % Paper 1 URL zone
+    \begin{picture}(0,0)
+    \put(41, -36){
+        \href{https://doi.org/10.1016/j.jtrangeo.2024.103821}{\mbox{\phantom{\rule{3.3cm}{3.6cm}}}}
+        }
+    \end{picture}
+
+    % Paper 2 URL zone
+    \begin{picture}(0,0)
+    \put(150, -20){
+        \href{https://doi.org/10.1016/j.tra.2025.104379}{\mbox{\phantom{\rule{3.2cm}{3.6cm}}}}
+        }
+    \end{picture}
+
+    % Paper 3 URL zone
+    \begin{picture}(0,0)
+    \put(258, -5){
+        \href{https://doi.org/10.1007/s10018-022-00349-7}{\mbox{\phantom{\rule{3.1cm}{3.6cm}}}}
+        }
+    \end{picture}
+
+    % Back page
+    \AddToShipoutPictureBG*{%
+\includegraphics[width=\paperwidth,height=\paperheight]{figures/policy-brief-back-page.pdf}
+    }
+
+    \thispagestyle{empty}
+
+    \end{document}

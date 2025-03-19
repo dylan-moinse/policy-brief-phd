@@ -1,0 +1,26 @@
+%%% Disable LaTeX's Default Section Numbering %%%
+\makeatletter
+
+% Redefine \section to customize its appearance
+\renewcommand{\section}{\@ifstar{\@ssection}{\@Mysection}} 
+
+% Define a custom section format
+\def\@Mysection#1{%
+  \stepcounter{section} % Properly increment section numbering
+  \thispagestyle{plain} % Apply a clean page style
+  
+  \noindent % Remove automatic indentation
+  \begin{minipage}{\textwidth} % Use a full-width text block
+      \raggedright % Left-align the text
+      {\fontsize{50}{60}\bfseries\color{UGEblue}\thesection} % Large section number
+      \vspace{5pt} % Reduce space between number and title
+      \par
+      {\fontsize{18}{22}\bfseries\color{UGEblue} \MakeUppercase{#1}} % Uppercase section title with color
+  \end{minipage}
+}
+
+\makeatother
+
+%%% Fix Section Numbering %%%
+\setcounter{section}{0} % Start section numbering from 1
+\renewcommand{\thesection}{\arabic{section}} % Remove chapter prefix from section numbering
