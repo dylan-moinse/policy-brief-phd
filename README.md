@@ -1,6 +1,7 @@
 # *LaTeX* Policy Brief Template
 
-This *GitHub* repository contains the *LaTeX* source files for a policy brief.
+This *GitHub* repository contains the *LaTeX* source files for a policy brief published on *HAL* and [*ResearchGate*](http://dx.doi.org/10.13140/RG.2.2.21093.31205)
+(DOI:10.13140/RG.2.2.21093.31205).
 
 This document summarises the research carried out in my doctoral thesis available through these GitHub repositories ([French](https://github.com/dylan-moinse/PhD_Thesis_Dylan_MOINSE_French) and [English](https://github.com/dylan-moinse/PhD_Thesis_Dylan_MOINSE_English)).
 
