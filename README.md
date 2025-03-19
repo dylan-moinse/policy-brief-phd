@@ -78,85 +78,19 @@ Screenshots showcasing the structure and style of this 15-page document:
   <tbody>
     <tr>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/01-DM-front-page.jpg" width="250px;" alt="Image 1"/>
+        <img src="readme-pic/page_1.jpg" width="250px;" alt="Image 1"/>
         <br />
-        <sub><b>Front Page</b></sub>
+        <sub><b>Cover Page</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/02-DM-guide.jpg" width="250px;" alt="Image 2"/>
-        <br />
-        <sub><b>Reading Guide</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/03-DM-acknowledgements.jpg" width="250px;" alt="Image 3"/>
-        <br />
-        <sub><b>Acknowledgement</b></sub>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table style="width: 100%;">
-  <tbody>
-    <tr>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/04-DM-table-contents.jpg" width="250px;" alt="Image 4"/>
-        <br />
-        <sub><b>Table of Contents</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/05-DM-table-figures.jpg" width="250px;" alt="Image 5"/>
-        <br />
-        <sub><b>List of Figures</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/06-DM-table-maps.jpg" width="250px;" alt="Image 6"/>
-        <br />
-        <sub><b>List of Maps</b></sub>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table style="width: 100%;">
-  <tbody>
-    <tr>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/07-DM-table-tables.jpg" width="250px;" alt="Image 7"/>
-        <br />
-        <sub><b>List of Tables</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/08-DM-foreword.jpg" width="250px;" alt="Image 8"/>
-        <br />
-        <sub><b>Foreword</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/09-DM-captatio-benevolentiae.jpg" width="250px;" alt="Image 9"/>
-        <br />
-        <sub><b>Captatio Benevolentiae</b></sub>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table style="width: 100%;">
-  <tbody>
-    <tr>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/10-DM-introduction.jpg" width="250px;" alt="Image 10"/>
+        <img src="readme-pic/page_2.jpg" width="250px;" alt="Image 2"/>
         <br />
         <sub><b>Introduction</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/11-DM-parts.jpg" width="250px;" alt="Image 11"/>
+        <img src="readme-pic/page_3.jpg" width="250px;" alt="Image 3"/>
         <br />
-        <sub><b>Parts</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/12-DM-chapters.jpg" width="250px;" alt="Image 12"/>
-        <br />
-        <sub><b>Chapters</b></sub>
+        <sub><b>Graphical Abstract</b></sub>
       </td>
     </tr>
   </tbody>
@@ -166,41 +100,19 @@ Screenshots showcasing the structure and style of this 15-page document:
   <tbody>
     <tr>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/13-DM-subtoc.jpg" width="250px;" alt="Image 13"/>
+        <img src="readme-pic/page_4.jpg" width="250px;" alt="Image 1"/>
         <br />
-        <sub><b>Chapter Table of Contents</b></sub>
+        <sub><b>Item 1</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/14-DM-graphical-abstracts.jpg" width="250px;" alt="Image 14"/>
+        <img src="readme-pic/page_5.jpg" width="250px;" alt="Image 2"/>
         <br />
-        <sub><b>Chapter Graphical Abstract</b></sub>
+        <sub><b>Item 2</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/15-DM-abstracts.jpg" width="250px;" alt="Image 15"/>
+        <img src="readme-pic/page_6.jpg" width="250px;" alt="Image 3"/>
         <br />
-        <sub><b>Chapter Abstract</b></sub>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table style="width: 100%;">
-  <tbody>
-    <tr>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/16-DM-quotes.jpg" width="250px;" alt="Image 16"/>
-        <br />
-        <sub><b>Chapter Introduction</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/17-DM-valorization.jpg" width="250px;" alt="Image 17"/>
-        <br />
-        <sub><b>Chapter Valorization</b></sub>
-      </td>
-      <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/18-DM-subbibliography.jpg" width="250px;" alt="Image 18"/>
-        <br />
-        <sub><b>Chapter Bibliography</b></sub>
+        <sub><b>Item 3</b></sub>
       </td>
     </tr>
   </tbody>
@@ -210,19 +122,19 @@ Screenshots showcasing the structure and style of this 15-page document:
   <tbody>
     <tr>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/19-DM-conclusion.jpg" width="250px;" alt="Image 19"/>
+        <img src="readme-pic/page_7.jpg" width="250px;" alt="Image 1"/>
         <br />
-        <sub><b>Conclusion</b></sub>
+        <sub><b>Item 4</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/20-DM-index.jpg" width="250px;" alt="Image 20"/>
+        <img src="readme-pic/page_8.jpg" width="250px;" alt="Image 2"/>
         <br />
-        <sub><b>Index</b></sub>
+        <sub><b>Item 5</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/21-DM-acronyms.jpg" width="250px;" alt="Image 21"/>
+        <img src="readme-pic/page_9.jpg" width="250px;" alt="Image 3"/>
         <br />
-        <sub><b>Acronyms</b></sub>
+        <sub><b>Item 6</b></sub>
       </td>
     </tr>
   </tbody>
@@ -232,17 +144,39 @@ Screenshots showcasing the structure and style of this 15-page document:
   <tbody>
     <tr>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/22-DM-glossary.jpg" width="250px;" alt="Image 22"/>
+        <img src="readme-pic/page_10.jpg" width="250px;" alt="Image 1"/>
         <br />
-        <sub><b>Glossary</b></sub>
+        <sub><b>Item 7</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/23-DM-appendices.jpg" width="250px;" alt="Image 23"/>
+        <img src="readme-pic/page_11.jpg" width="250px;" alt="Image 2"/>
         <br />
-        <sub><b>Appendices</b></sub>
+        <sub><b>Item 8</b></sub>
       </td>
       <td align="center" valign="top" style="width: 33%;">
-        <img src="readme-pic/24-DM-back-cover.jpg" width="250px;" alt="Image 24"/>
+        <img src="readme-pic/page_12.jpg" width="250px;" alt="Image 3"/>
+        <br />
+        <sub><b>Item 9</b></sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%;">
+  <tbody>
+    <tr>
+      <td align="center" valign="top" style="width: 33%;">
+        <img src="readme-pic/page_13.jpg" width="250px;" alt="Image 1"/>
+        <br />
+        <sub><b>Item 10</b></sub>
+      </td>
+      <td align="center" valign="top" style="width: 33%;">
+        <img src="readme-pic/page_14.jpg" width="250px;" alt="Image 2"/>
+        <br />
+        <sub><b>Overview</b></sub>
+      </td>
+      <td align="center" valign="top" style="width: 33%;">
+        <img src="readme-pic/page_15.jpg" width="250px;" alt="Image 3"/>
         <br />
         <sub><b>Back Cover</b></sub>
       </td>
