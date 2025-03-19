@@ -1,3 +1,10 @@
+% ------------------------------------------------------------------------------
+% LaTeX template created by Dylan MOINSE
+% © 2024 Dylan MOINSE. All rights reserved.
+% This template is licensed under MIT license
+% You are free to use, modify, and distribute it under the terms of the license.
+% ------------------------------------------------------------------------------
+
 %%% Load Master Class %%%
 \LoadClass[a4paper,oneside,11pt]{report} % Base document class
 
