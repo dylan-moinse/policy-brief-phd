@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------------------
-% LaTeX template created by Dylan MOINSE
-% © 2024 Dylan MOINSE. All rights reserved.
+% LaTeX template created by Dylan Moinse
+% © 2025 Dylan Moinse. All rights reserved.
 % This template is licensed under MIT license
 % You are free to use, modify, and distribute it under the terms of the license.
 % ------------------------------------------------------------------------------
